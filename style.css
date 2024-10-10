@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main_container{
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: auto;
+    background-color: white;
+}
+.container1{
+    width: 1440px;
+    height: auto;
+    background-color: white;
+}
+.fylo{
+    display: flex;
+    flex-direction: row;
+    margin-top:65px ;
+    margin-left: 80px;
+    margin-right: 80px;
+    justify-content: space-between;
+    
+    
+
+}
+.fylo_image{
+    width: 166px;
+    height: 49px;
+    
+}
+.features{
+    display: flex;
+    gap: 57px;
+    
+}
+.team{
+    color: #07043B;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.first{
+    display: flex;
+    align-items: center;
+    margin-top: 101px;
+    gap: 55px;
+}
+.first_left{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left:80px;
+
+}
+.heading{
+    color: #07043B;
+    font-family: Raleway;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+.first_paragraph{
+    color: #07043B;
+    font-family: "Open Sans";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.531px;
+}
+.inp_but{
+    display: flex;
+    gap: 16px;
+    margin-top: 10px;
+    
+}
+.email{
+    width: 320px;
+    height: 45px;
+    border-radius: 3px;
+    stroke-width: 0.625px;
+    stroke: #07043B;
+    filter: drop-shadow(2px 3px 6px rgba(0, 0, 0, 0.16));
+    
+    
+}
+.email::placeholder{
+    color: #C2C2C2;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.467px;
+    padding-left:21px ;
+}
+.button{
+    width: 200px;
+    height: 45px;
+    background-color: #2F65F8;
+    filter: drop-shadow(2px 3px 6px rgba(0, 0, 0, 0.16)); 
+    border: none;
+    border-radius: 3px;
+}
+.get{
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.container2{
+    width: 1440px;
+    height: auto;
+    position: relative;
+    margin-top: 164px;
+    
+
+}
+.second_left{
+    display: flex;
+    flex-direction: column;
+}
+.second_heading{
+    color: #07043B;
+    font-family: Raleway;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top: 178px;
+    left: 80px;
+    
+}
+.second_paragraph{
+    color: #07043B;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    position: absolute;
+    top: 263px;
+    left: 80px;
+}
+.second_paragraph2{
+    color: #07043B;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    position: absolute;
+    top: 327px;
+    left: 80px;
+}
+.see{
+    color: #3DA08F;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: underline;
+    position: absolute;
+    top: 390px;
+    left: 80px;
+    
+}
+.arrow{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 395px;
+    left: 234px;
+}
+.kyle_box{
+    width: 356px;
+    height: 215px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 32px;
+    padding-top: 20px;
+    gap: 20px;
+    position: absolute;
+    top: 470px;
+    left: 75px;
+}
+.syntax{
+    width: 18px;
+    height: 15px;
+}
+.kyle_para{
+    color: #07043B;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+}
+.photo{
+    display: flex;
+    gap: 10px;
+    
+}
+.name{
+    color: #07043B;
+    font-family: "Open Sans";
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.55px;
+}
+.kyle_paragraph{
+    color: #07043B;
+    font-family: "Open Sans";
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px; 
+    letter-spacing: 0.4px;
+}
+.kyle_photo{
+    width: 32px;
+    height: 32px;
+    
+}
+.group_2{
+    width: 542px;
+    height: 409px;
+    position: absolute;
+    top: 202px;
+    left: 818px;
+    
+}
+.container3{
+    width: 1440px;
+    height: 369.715px;
+    background-color: #575988;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.third_left{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+.third_heading{
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+.third_paragraph{
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.5px;
+}
+.third_right{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.last_input{
+    width: 480px;
+    height: 48px;
+    fill: #FFF;
+    filter: drop-shadow(2px 3px 6px rgba(7, 4, 59, 0.16));
+    border: none;
+    border-radius: 3px;
+}
+.last_input::placeholder{
+    color: #C0C0C0;
+    font-family: Raleway;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 22px;
+}
+.last_button{
+    width: 200px;
+    height: 48px;
+    background-color: #2F65F8;
+    filter: drop-shadow(2px 3px 6px rgba(7, 4, 59, 0.16));
+    border: none;
+    border-radius: 3px;
+}
+.free{
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.container4{
+    width: 1440px;
+    height: 391px;
+    background-color: #07043B;
+    padding-top: 92px;
+    padding-left: 80px;
+    display: flex;
+    gap: 200px;
+}
+.fylo_photo{
+    width: 135px;
+    height: 39px;
+    
+}
+.fourth_left{
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+}
+.phone{
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+.number{
+    display: flex;
+    gap: 16px;
+}
+.email_photo{
+    width: 24px;
+    height: 24px;
+    
+}
+.mail{
+    display: flex;
+    gap: 16px;
+}
+.email{
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.last_info{
+    display: flex;
+    gap: 200px;
+    margin-top: 77px;
+}
+.us{
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.logos{
+    display: flex;
+    gap: 10px;
+}
+.circle{
+    width: 32.224px;
+    height: 31px;
+    flex-shrink: 0;
+}
